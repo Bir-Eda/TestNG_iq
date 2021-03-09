@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Suite" parallel="tests" thread-count="2">
+    <test name="Firefox BuffSci test">
+        <parameter name="browser" value="Firefox"></parameter>
+        <parameter name="version" value="84.0"></parameter>
+        <parameter name="platform" value="macOS 10.13"></parameter>
+        <classes>
+            <class name="TestNGClasses.SauceLabExample"></class>
+        </classes>
+    </test>
+    <test name="Chrome BuffSci test">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="version" value="73.0"></parameter>
+        <parameter name="platform" value="macOS 10.13"></parameter>
+        <classes>
+            <class name="TestNGClasses.SauceLabExample"></class>
+
+        </classes>
+    </test>
+
+</suite>

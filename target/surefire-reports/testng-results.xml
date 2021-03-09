@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-12T15:53:16 EDT" name="Command line suite" finished-at="2020-09-12T15:53:29 EDT" duration-ms="12681">
+    <groups>
+    </groups>
+    <test started-at="2020-09-12T15:53:16 EDT" name="Command line test" finished-at="2020-09-12T15:53:29 EDT" duration-ms="12681">
+      <class name="TestNGClasses.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:16 EDT" name="setUp" finished-at="2020-09-12T15:53:22 EDT" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CgoogleLogoDisplay()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:22 EDT" name="CgoogleLogoDisplay" finished-at="2020-09-12T15:53:22 EDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CgoogleLogoDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:22 EDT" name="tearDown" finished-at="2020-09-12T15:53:22 EDT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:22 EDT" name="setUp" finished-at="2020-09-12T15:53:26 EDT" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AgooogleTitleTest()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:26 EDT" name="AgooogleTitleTest" finished-at="2020-09-12T15:53:26 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgooogleTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:26 EDT" name="tearDown" finished-at="2020-09-12T15:53:26 EDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:26 EDT" name="setUp" finished-at="2020-09-12T15:53:29 EDT" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="BgmailLogoDisplay()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:29 EDT" name="BgmailLogoDisplay" finished-at="2020-09-12T15:53:29 EDT" depends-on-methods="TestNGClasses.GoogleTest.CgoogleLogoDisplay" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BgmailLogoDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGClasses.GoogleTest@44c8afef]" started-at="2020-09-12T15:53:29 EDT" name="tearDown" finished-at="2020-09-12T15:53:29 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGClasses.GoogleTest -->
+      <class name="TestNGClasses.TestNGBasics">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="setUp" finished-at="2020-09-12T15:53:16 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="launchBrowser" finished-at="2020-09-12T15:53:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="login" finished-at="2020-09-12T15:53:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="enterUrl()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="enterUrl" finished-at="2020-09-12T15:53:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method signature="googleLogo()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="googleLogo" finished-at="2020-09-12T15:53:16 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogo -->
+        <test-method is-config="true" signature="refresh()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="refresh" finished-at="2020-09-12T15:53:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method is-config="true" signature="enterUrl()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="enterUrl" finished-at="2020-09-12T15:53:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method signature="googleTitleTest()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="googleTitleTest" finished-at="2020-09-12T15:53:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method is-config="true" signature="refresh()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="refresh" finished-at="2020-09-12T15:53:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:16 EDT" name="closeBrowser" finished-at="2020-09-12T15:53:16 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="deleteAllCookies()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:29 EDT" name="deleteAllCookies" finished-at="2020-09-12T15:53:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method is-config="true" signature="generateTestReports()[pri:0, instance:TestNGClasses.TestNGBasics@4923ab24]" started-at="2020-09-12T15:53:29 EDT" name="generateTestReports" finished-at="2020-09-12T15:53:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestReports -->
+      </class> <!-- TestNGClasses.TestNGBasics -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

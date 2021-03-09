@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Suite" parallel="tests" thread-count="3">
+    <test name="smoke">
+        <classes>
+            <class name="TestNGClasses.Example_1"></class>
+            <class name="TestNGClasses.GoogleTest"></class>
+            <class name="TestNGClasses.TestNGBasics"></class>
+
+        </classes>
+    </test>
+</suite>
